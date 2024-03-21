@@ -37,6 +37,10 @@ app.get('/', (req, res) => {
 app.get('/another',(req,res)=>{
     res.send("This is another get request!")
 })
+app.get('/different',(req,res)=>{
+    res.send("This is a different get request!")
+})
+
 
 app.post('/',(req,res)=>{
     
